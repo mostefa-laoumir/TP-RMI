@@ -7,11 +7,12 @@ public class Client {
     public static void main(String[] args) {
         try {
             Registry registry = LocateRegistry.getRegistry("localhost", 22222);
-            IRemote objDis = (IRemote) registry.lookup("objDis");
+            IRemote objet = (IRemote) registry.lookup("objet-banque");
+
             Scanner scanner = new Scanner(System.in);
-            System.out.print("donner equation:" );
-            String equation = scanner.next();
-            System.out.println("Resultat : "+objDis.Calculatrice(equation));
+            System.out.print("Montant a verser :" );
+            float solde = scanner.nextFloat();
+            System.out.println(objet.verser(solde));
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -6,8 +6,8 @@ public class Serveur {
     public static void main(String[] args) {
         try {
             RemoteImpl remoteImpl = new RemoteImpl();
-            IRemote objDis = (IRemote) UnicastRemoteObject.exportObject(remoteImpl, 22222);
-            LocateRegistry.createRegistry(22222).bind("objDis", objDis);
+            IRemote objet = (IRemote) UnicastRemoteObject.exportObject(remoteImpl, 22222);
+            LocateRegistry.createRegistry(22222).bind("objet-banque", objet);
             while (1==1) {
             }
         } catch (Exception e) {
