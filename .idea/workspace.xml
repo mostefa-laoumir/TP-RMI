@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="040d1a09-5d38-4c4a-a89a-17621f76fab8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RMI/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/RemoteImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RMI/RemoteImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/Serveur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RMI/Serveur.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IRemote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RemoteImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoteImpl.java" afterDir="false" />
@@ -40,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hahahahah" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CalculatorServer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,7 +53,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yoga\AndroidStudioProjects\RMI\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Serveur">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="RMI" />
@@ -65,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Serveur" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +92,8 @@
       <updated>1621720435263</updated>
       <workItem from="1621720438427" duration="2826000" />
       <workItem from="1621811912013" duration="65000" />
-      <workItem from="1621851767077" duration="3052000" />
+      <workItem from="1621851767077" duration="7396000" />
+      <workItem from="1622242427972" duration="2253000" />
     </task>
     <servers />
   </component>
@@ -90,26 +101,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1621725601002">
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1621859750468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621725601002" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1621856493769">
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621859750468" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1622244720208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621856493769" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1621856493769">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622244720208" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1622244720208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621856493769" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1621856493769">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622244720208" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1622244720208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621856493769" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1621856493769">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622244720208" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1622244720208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621856493769" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622244720208" />
     <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1621851948600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

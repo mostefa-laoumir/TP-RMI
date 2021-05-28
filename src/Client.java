@@ -1,20 +1,22 @@
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.Scanner;
 
-public class Client {
+public class Client extends Application {
 
-    public static void main(String[] args) {
-        try {
-            Registry registry = LocateRegistry.getRegistry("localhost", 22222);
-            IRemote objet = (IRemote) registry.lookup("objet-banque");
-
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("Montant a verser :" );
-            float solde = scanner.nextFloat();
-            System.out.println(objet.verser(solde));
-        } catch (Exception e) {
-            e.printStackTrace();
+        @Override
+        public void start(Stage primaryStage) throws Exception{
+            Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+            primaryStage.setTitle("Application Repartie");
+            primaryStage.setScene(new Scene(root, 500, 500));
+            primaryStage.show();
         }
-    }
+    public static void main(String[] args) {
+            launch(args);  }
 }
